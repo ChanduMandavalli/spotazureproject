@@ -1,0 +1,17 @@
+{
+	"name": "ls_azuresql_src",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "spotprojectserversql.database.windows.net",
+			"database": "sqldb-spotproject",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "admin_mjc",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQENDODAwMEEwLTdEODMtNDIzNC1CMkUxLTlGMTYwMDBBMUI5Ml9iOWMzYjA4Mi01MzM2LTQ0MTItYmY2YS0xYjhjNTJiYWZjMTUiDQp9"
+		}
+	}
+}
