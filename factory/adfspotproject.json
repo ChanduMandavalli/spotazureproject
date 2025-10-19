@@ -1,0 +1,9 @@
+{
+	"name": "adfspotproject",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0bfece67-a92d-42f8-89ed-3f45e8df6214",
+		"tenantId": "3eb851a9-fae7-449e-8a26-a14904c36b66"
+	}
+}
